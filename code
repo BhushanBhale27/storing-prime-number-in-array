@@ -1,0 +1,17 @@
+var n =5;
+ var a=[]
+    var x=2;
+    while(a.length<n){
+        var flag=true;
+        for(var i=2;i<x;i++){
+            if(x%i==0){
+                flag=false;
+                break;
+            }
+        }
+            if(flag){
+                a.push(x);
+            }
+            x=x+1 
+    }
+    console.log(a);
